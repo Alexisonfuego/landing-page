@@ -1,0 +1,166 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+header, nav {
+    background-color: #1F2937;
+    display: flex;
+    box-sizing: border-box;
+}
+
+header {
+   justify-content: center;
+   gap: 70px;
+   padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+#cards {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+  }
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    gap: 50px;
+}
+
+.info img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    object-fit:cover;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    padding: 60px;
+}
+
+#quote {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote #quote-attribute {
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.action {
+    margin: auto;
+    color: white;
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 700px;
+    height: 100px;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.action button {
+    border: 5px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
