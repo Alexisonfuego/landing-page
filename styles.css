@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
 }
@@ -153,14 +153,11 @@ span {
 
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
+    padding: 5px;
+    padding-right: 50px;
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
